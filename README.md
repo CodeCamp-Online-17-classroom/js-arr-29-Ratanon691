@@ -1,18 +1,14 @@
-# js-lab-114
-### Lab114 Array: การลบค่าelement
-จงเขียนฟังก์ชัน deleteTask(id) เพื่อลบ element ใน tasks ที่มี property ชื่อ id เท่ากับ id 
+# js-lab-115
+### Lab115 Array: array result1
+ให้สร้าง array result จาก array ที่กำหนด โดยใช้ arr.map(fn)
 
 ```JavaScript
-const tasks = [
-  { id: 1, name: 'Fishing' },
-  { id: 2, name: 'Shopping' },
-  { id: 3, name: 'Swimming' }
-];
+const array = [1, 2, 30, 400];
+// result: [2, 4, 60, 800"]
 
-deleteTask(2);
-console.log(tasks);
-// [
-//   { id: 1, name: 'Fishing' },
-//   { id: 3, name: 'Swimming' }
-// ]
+const array = [1, 2, 3, 4];
+// result: ["1", "2", "3", "4"]
+
+const array = [1, '1', 2, {}];
+// result: ["number", "string", "number", "object"]
 ```
